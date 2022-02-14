@@ -1,13 +1,12 @@
 const sum = (a, b) => {
     
-    if(!a || b){
-    console.log("Went inside if statement")
+    if(!a && b){
+
     return "invalid InPut"; 
 }
-    console.log("this is a", a, "this is b", b)
     return a + b;
 }
 
-console.log("The sum is:", sum(null, 6))
+const square =(a) => a * a;
 
-module.exports = sum;
+module.exports = {sum, square};
