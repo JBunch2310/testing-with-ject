@@ -3,5 +3,14 @@
     "add": "^2.0.6",
     "jest": "^27.5.1",
     "yarn": "^1.22.17"
-  }
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "name": "testing-with-jest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/JBunch2310/testing-with-ject.git",
+  "author": "Jamie Bunch <JamieBunch@ymail.com>",
+  "license": "MIT"
 }
