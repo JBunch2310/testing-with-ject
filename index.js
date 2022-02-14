@@ -1,5 +1,8 @@
 const sum = (a, b) => {
-    return a + b; 
+    if(!a && b){
+    return "invalid InPut"; 
+}
+    return a + b;
 }
 
 module.exports = sum;

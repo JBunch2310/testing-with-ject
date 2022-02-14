@@ -16,3 +16,19 @@ describe("should contain tests fo sum", () => {
         expect(actual).toBe(expectedResults);
     })
 })
+
+
+describe("should return an error for invalid reason", () => {
+    it("should add 2 number", () => {
+        //Arrange
+        const a = null;
+        const b = 6;
+        const expectedResults = "invalid InPut";
+
+        //Act
+        const actual=sum(a, b);
+
+        //Assert
+        expect(actual).toBe(expectedResults);
+    })
+})
